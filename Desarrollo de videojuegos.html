@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<meta charset="utf-8" /> <!--Codifica el leguage utiizado en la pagina y sus caracteres especiales-->
+
+<html lang="es"> <!--Refiere a que la pagina esta en español-->
+    <head>
+        <title>Emperrado</title> <!--Es la unica etiqueta que es visible en la cabeza-->
+        <link rel="stylesheet" href="style.css"> <!--(enlazar otros archivos, atributo rel)-->
+        <link rel="shortcut icon" href="Recursos/brand.png" />
+        <!--fuentes-->
+        <style> 
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');    
+        @import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+        </style>
+    </head> 
+    <!--refiere a la parte superior de la pagina, el 
+    titulo es el de la pagina web-->
+
+
+    <body> <!--//refiere al cuerpo de la pagina-->
+       
+        
+        <header > <!--Etiqueta, refiera al cabezal del sitio-->
+            <img src="Recursos/brand.png" id="brand">
+                <div id="titulo">
+                    <h1>Braian G. Torres</h1> <!--H1,2,3,4,5 tipo de titulos y tamaños-->
+                    <h2>Portfolio Emperrado</h2>
+                </div> <!--Es un divisor, no aporta nada pero sirve para dividir secciones o grupos-->
+                
+
+        </header>
+        
+
+
+        <nav class="menu"><!--refiere al apartado de navegacion, aqui entran las sub pestañas-->
+            <ul><!--Unoorder list, Lista desordenada de elementos-->
+                <li> <a href="Desarrollo de videojuegos.html">Desarrollo de Videojuegos</a></li>
+                <li> <a href="Index.html">Emperrado</a></li><!--List item, item de lista, es el elemtento que puede entrar en la Ul-->
+                <li> <a href="produccionAudiovisual.html">Producción audiovisual</a></li>
+                <li> <a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <div class="video">
+            <video src="Recursos/recursoweb1.mp4" autoplay muted loop></video><!--insertar una imagen, con su source-->
+
+        </div>
+        
+
+        <section class="seccion"><!--Etiqueta, sirve para colocar el contenido principal de la pag/pestaña-->
+            
+            <article><!--Estos son los articulos que entran el la seccion principal. Pueden contener fecha, titulo y parrafo-->
+                <h2>Desarrollo de videojuegos</h2>
+                <p>
+                    A continuación, estaran los videojuegos desarrollados en el marco de la marteria Fundamentos de la Programación 1.
+                </p> <!--P de parrafo-->
+                <p>
+                    Los titulos, fueron programados en los distintos motores desde 0. Junto a ellos encontraran un video gameplay del mismo y un link para jugarlos o descargarlos.
+                </p>
+                
+            </article>
+
+            <article>
+                
+                <h2>Proyecto UNITY</h2>
+                <p>
+                    "Inconsciente". Es un minijuego desarrollado en Unity con scripts en lenguaje C#. Aquí exploramos un mundo proviniente de subconsciente, en donde tendremos que recolectar recuerdos e items para lograr salir. Teniendo en cuenta los enemigos que nos persegiran por el mapa y hasta el agua en nuestros pies que nos puede hacer perder.
+                </p>
+                <p>
+                    Profundizamos en la aplicacion de variables, condicionales, arrays, ciclos y la interacción en un mundo 3d para programar este videojuego.
+                </p>
+
+                <div class="gameplay">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/yGuhjdpC-lI?si=n1yAQAKp-D9V5VAP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            
+                </div>
+
+                <footer>
+                    <a href="https://drive.google.com/drive/u/3/folders/1o9CRa0ufd517GdDGtdjc7SFEWu2EW5sr">Descarga el ejecutable desde Drive</a>
+                    <!-- Etiqueta a, sirve para nsertar elaces a otros sitios-->
+                </footer>
+            </article>
+
+            <article>
+                
+                <h2>Proyecto RPG MAKER</h2>
+                <p>
+                    "Un viaje extraordinario", trata de una miniaventura llevada a cabo por Marianito, o pepe para algunos. El mismo toma un viaje lleno de peligros y enfrentamientos contra monstruos por el simple hecho de que su papá no le dio la suficiente plata para comprar pan en el almacén. Por ende, Pepe explorará el mundo para obtener una recompensa que ofrece el intendente que espera con ansias que un valiente, mate al jefe de los monstruos y recupere un objeto que afectará al mundo entero.               
+                </p>
+
+                <div class="gameplay">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/OuGOtVJMSUg?si=UTCaBEU4ip_hdRoa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <footer>
+                    <a href="https://drive.google.com/file/d/1nrjLJe6B5Z9B0ab4zYZgVBhfT8mpV4z9/view?usp=sharing">Descarga el ejecutable desde Drive</a>
+                    <!-- Etiqueta a, sirve para nsertar elaces a otros sitios-->
+                </footer>
+            </article>
+
+            <article>
+                
+                <h2>Proyecto Scratch</h2>
+                <p>
+                    ¡Se escaparon los gatitos y tienes que atraparlos!
+                    son muy juguetones así que se rápido y atrápalos usando el clic izq. del ratón.                
+                </p>
+
+                <div class="gameplay">
+                     <iframe width="560" height="315" src="https://www.youtube.com/embed/unNui0XXdIQ?si=htKHvmUyZHqwZYgX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>   
+                </div>
+            
+                <footer>
+                    <a href="https://scratch.mit.edu/projects/1212617672">Juegalo en Scratch</a>
+                    <!-- Etiqueta a, sirve para nsertar elaces a otros sitios-->
+                </footer>
+            </article>
+
+        </section>
+
+        <footer><!--Pie de pagina de un elemento o de la pagina-->
+            Derechos reservados 2025
+        </footer>
+
+         <!--ScrolReveal y acceso a script js, si no estan aca no los puedo ejecutar-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="interaccion.js"></script>
+    </body>
+
+</html>

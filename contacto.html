@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<meta charset="utf-8" /> <!--Codifica el leguage utiizado en la pagina y sus caracteres especiales-->
+
+<html lang="es"> <!--Refiere a que la pagina esta en español-->
+    <head>
+        <title>Emperrado</title> <!--Es la unica etiqueta que es visible en la cabeza-->
+        <link rel="stylesheet" href="style.css"> <!--(enlazar otros archivos, atributo rel)-->
+        <link rel="shortcut icon" href="Recursos/brand.png" />
+        <!--fuentes-->
+        <style> 
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');    
+        @import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+        </style>
+       
+
+    </head> 
+    <!--refiere a la parte superior de la pagina, el 
+    titulo es el de la pagina web-->
+
+
+    <body> <!--//refiere al cuerpo de la pagina-->
+       
+        
+        <header > <!--Etiqueta, refiera al cabezal del sitio-->
+            <img src="Recursos/brand.png" id="brand">
+                <div id="titulo">
+                    <h1>Braian G. Torres</h1> <!--H1,2,3,4,5 tipo de titulos y tamaños-->
+                    <h2>Portfolio Emperrado</h2>
+                </div> <!--Es un divisor, no aporta nada pero sirve para dividir secciones o grupos-->
+                
+
+        </header>
+        
+
+
+        <nav class="menu"><!--refiere al apartado de navegacion, aqui entran las sub pestañas-->
+            <ul><!--Unoorder list, Lista desordenada de elementos-->
+                <li> <a href="contacto.html">Contacto</a></li>
+                <li> <a href="Index.html">Emperrado</a></li><!--List item, item de lista, es el elemtento que puede entrar en la Ul-->
+                <li> <a href="Desarrollo de videojuegos.html">Desarrollo de Videojuegos</a></li>
+                <li> <a href="produccionAudiovisual.html">Producción audiovisual</a></li>
+            </ul>
+        </nav>
+
+        <div class="video">
+            <video src="Recursos/recursoweb1.mp4" autoplay muted loop></video><!--insertar una imagen, con su source-->
+
+        </div>
+        
+
+        <section class="seccion"><!--Etiqueta, sirve para colocar el contenido principal de la pag/pestaña-->
+            
+            <article><!--Estos son los articulos que entran el la seccion principal. Pueden contener fecha, titulo y parrafo-->
+                <h2>Contactame</h2>
+                <p>
+                    Escribeme para realizar proyectos, ideas o para formar parte de tu equipo! 
+                </p>
+
+            </article>
+
+            <ul class="menu">
+                <li> <a href="https://www.instagram.com/emperrado_one/">Instagram personal</a></li>
+                <li> <a href="tel:1130917287">Celular</a></li>
+                <li> <a href="mailto:torresbrai7@gmail.com">Gmail</a></li>
+            </ul>
+        
+            <div class="carrete1">
+                        <img src="Recursos/carrete3a.png" alt="">
+                        <img src="Recursos/carrete3b.png" >
+                        <img src="Recursos/carrete3c.png" alt="">
+            </div>
+        </section>
+
+        <footer><!--Pie de pagina de un elemento o de la pagina-->
+            Derechos reservados 2025
+        </footer>
+
+         <!--ScrolReveal y acceso a script js, si no estan aca no los puedo ejecutar-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="interaccion.js"></script>
+    </body>
+
+</html>
+
